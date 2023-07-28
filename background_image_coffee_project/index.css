@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+    line-height: 1.5;
+}
+
+.nav {
+    height: 4rem;
+    background: #110909;
+    padding: 1rem 0;
+}
+
+.nav-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.nav-center {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    /* padding-left: 2rem; */
+
+}
+
+.hero {
+    background: linear-gradient(to right,rgb(105, 62, 27, 0.5),rgb(105, 62, 27, 1)) ,url(coffee.jpg) center/cover;
+    min-height: calc(100vh - 5rem);
+    
+
+}
+
+.hero-center {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 5rem 0;
+    color: #fff;
+
+}
+
+.hero-center h2 {
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 0.75;
+}
+
+.hero-center p {
+    margin-bottom: 1.5rem ;
+} 
+
+.hero-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 0.75rem 1.25rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing:2px ;
+    cursor: pointer;
+}
